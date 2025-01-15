@@ -19,4 +19,4 @@ jobs:
     - name: linting html
       run: npx htmlhint "**/*.html"
     - name: linting style
-      run: npx stylelint "styles/**/*.css'"
+      run: npx stylelint "**/*.css'"
